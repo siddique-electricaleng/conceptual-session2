@@ -164,7 +164,8 @@ header,
     max-width: 594px;
     text-align: center;
 }
-#hot-deal .hot-deal-text *{
+
+#hot-deal .hot-deal-text * {
     margin-bottom: 24px;
 }
 
@@ -177,45 +178,53 @@ header,
 #hot-deal .hot-deal-text h2 .important {
     color: #E55473;
 }
-#hot-deal .hot-deal-img{
+
+#hot-deal .hot-deal-img {
     max-width: 318px;
 }
 
 /* Video 3: Instagram Section Styles */
-#instagram{
+#instagram {
     margin-bottom: 128px;
 }
-#instagram .section-heading{
+
+#instagram .section-heading {
     margin-bottom: 57px;
 }
-#instagram .content-flowers{
+
+#instagram .content-flowers {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-#instagram .content-flowers .section-flowers img{
+
+#instagram .content-flowers .section-flowers img {
     max-width: 100%;
 }
 
 /* Newsletter section */
-#newsletter{
+#newsletter {
     margin-bottom: 128px;
 }
-.newsletter-main{
+
+.newsletter-main {
     background-image: url('../images/newsletter_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center; /* horizontal and vertical centers */
+    background-position: center center;
+    /* horizontal and vertical centers */
     padding: 122px 287px;
 }
-#newsletter form{
+
+#newsletter form {
     max-width: 866px;
     margin: 48px auto;
     display: flex;
     gap: 16px;
 }
-#newsletter form input{
+
+#newsletter form input {
     flex-grow: 1;
     border: none;
     border-radius: 3px;
@@ -223,4 +232,39 @@ header,
     font-size: 20px;
     outline: none;
 }
-/* Video 4 */
+
+/* Video 4 - footer styles*/
+footer {
+    background: #111010;
+    text-align: center;
+}
+
+.section-heading>h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-content {
+    padding: 128px 447px;
+}
+
+.section-heading>h2>span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-content p {
+    /* max-width: 625px; */
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 32px;
+}
+
+.footer-content small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
